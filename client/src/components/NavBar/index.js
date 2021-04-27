@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
-
+import image from "./googlebooks.png";
 
 function Navbar() {
     return (
@@ -9,7 +9,8 @@ function Navbar() {
 
         <nav className="navbar navbar-expand-lg text-light">
             <div className="container">
-                <Link className="navbar-brand" to="/">Google Books</Link>
+            <a className="navbar-brand" href="/"><img src={image}  height="50px" width="180px"  alt=""/></a>
+                {/* <Link className="navbar-brand" to="/"> </Link> */}
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link
