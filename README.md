@@ -22,5 +22,6 @@ The app is designed with MVC design pattern: Model, View, Controller and uses th
 The app uses bootstrap for styling
 ```
 ## Mock-up
+![Google-Book-Search](https://user-images.githubusercontent.com/74203959/116290677-b9743880-a761-11eb-8212-6bae2e8161b2.png)
 
 
