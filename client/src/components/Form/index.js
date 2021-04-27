@@ -7,9 +7,9 @@ return (
   <form>
     <div className="form-group">
         {/* <label htmlFor="search"><h2>Search for Books of Interest and Save </h2></label> */}
-        <h1 style={{ fontSize: "1.5em", color: "green" }}>
-              Something Very <strong > Magical</strong> can happen when you read a <strong> Book!</strong>  <i> -- J.K. Rowlings</i>
-            </h1>
+        <h1 style={{ fontSize: "1.5em", color: "MediumSeaGreen" }}>
+              Something Very <strong > Magical</strong> can happen when you read a <strong> Book!</strong>  <small><i> -- J.K. Rowlings</i></small>
+            </h1><br></br>
       <input
         onChange={props.handleInputChange}
         value={props.search}

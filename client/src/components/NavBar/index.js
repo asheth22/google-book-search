@@ -9,7 +9,7 @@ function Navbar() {
 
         <nav className="navbar navbar-expand-lg text-light">
             <div className="container">
-            <a className="navbar-brand" href="/"><img src={image}  height="50px" width="180px"  alt=""/></a>
+            <a className="navbar-brand" href="/"> <img src={image}  height="50px" width="180px"  alt=""/></a>
                 {/* <Link className="navbar-brand" to="/"> </Link> */}
                 <ul className="navbar-nav">
                     <li className="nav-item">
